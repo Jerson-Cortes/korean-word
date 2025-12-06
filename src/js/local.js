@@ -81,6 +81,8 @@ function play() {
   korean = result.korean;
   definition = result.definition;
   submitted = false;
+
+  document.getElementById('word-input').focus();
 }
 
 /**
